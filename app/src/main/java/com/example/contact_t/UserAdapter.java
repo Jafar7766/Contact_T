@@ -52,8 +52,6 @@ public class UserAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             UserNormalFeatured userNormalFeatured = (UserNormalFeatured) holder;
             userNormalFeatured.imgUserTwo.setImageResource(user.getResourceId());
             userNormalFeatured.tvUserTwo.setText(user.getName());
-
-
         }
     }
 
